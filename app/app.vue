@@ -17,7 +17,21 @@
         Aspiring Web Developer passionate about creating responsive and modern web applications.
       </p>
 
-      <a href="#contact" class="btn-primary">Get In Touch</a>
+      <div class="action-row">
+        <a href="#contact" class="btn-primary">Get In Touch</a>
+
+        <div class="social-links">
+          <a href="https://github.com/Ajthegreat01" target="_blank" aria-label="GitHub">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="social-icon" />
+          </a>
+          <a href="https://www.facebook.com/aj.mayormente.2024" target="_blank" aria-label="Facebook">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" alt="Facebook" class="social-icon" />
+          </a>
+          <a href="https://www.linkedin.com/in/alfred-joseph-mayormente/" target="_blank" aria-label="LinkedIn">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" class="social-icon" />
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -25,15 +39,17 @@
 <style scoped>
 .portfolio-container {
   min-height: 100vh;
-  padding: 2rem;
+  padding: 2rem 4rem;
   box-sizing: border-box;
+  background-color: #0a0a0a;
+  color: #ffffff;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
 }
 
 .logo {
@@ -44,7 +60,7 @@
 }
 
 .nav-links a {
-  color: #1a1818;
+  color: #a3a3a3;
   text-decoration: none;
   margin-left: 2rem;
   font-size: 0.95rem;
@@ -53,7 +69,7 @@
 }
 
 .nav-links a:hover {
-  color: #141414;
+  color: #ffffff;
 }
 
 .hero-content {
@@ -62,7 +78,7 @@
 
 .greeting {
   font-size: 1.1rem;
-  color: #050505;
+  color: #a3a3a3;
   margin-bottom: 0.5rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -74,18 +90,24 @@
   font-weight: 800;
   line-height: 1.1;
   margin-bottom: 1.2rem;
-  color: #161515;
+  color: #ffffff;
 }
 
 .name span {
-  color: #0c0c0c;
+  color: #737373;
 }
 
 .description {
   font-size: 1.05rem;
-  color: #131212;
+  color: #d4d4d4;
   margin-bottom: 2rem;
   line-height: 1.6;
+}
+
+.action-row {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 .btn-primary {
@@ -104,5 +126,34 @@
 .btn-primary:hover {
   background-color: #000000;
   color: #ffffff;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.social-links a:hover {
+  transform: translateY(-2px);
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.social-links a:hover .social-icon {
+  opacity: 1;
 }
 </style>
