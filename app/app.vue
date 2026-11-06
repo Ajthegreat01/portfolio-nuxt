@@ -10,3 +10,13 @@
         <a href="#contact">Contact</a>
       </nav>
     </header>
+
+    <main class="hero-section">
+      <div class="hero-content">
+        <p class="greeting">Hello, I'm</p>
+        <h1 class="name">Alfred Joseph <span>Mayormente</span></h1>
+        <p class="description">
+          Aspiring Web Developer passionate about creating responsive and modern websites.
+        </p>
+
+        <a href="#contact" class="btn-primary">Get In Touch</a>
