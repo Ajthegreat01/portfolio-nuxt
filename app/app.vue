@@ -1,6 +1,5 @@
 <template>
   <div class="portfolio-container">
-    <!-- Navbar -->
     <header class="navbar">
       <div class="logo">AJ</div>
       <nav class="nav-links">
@@ -11,27 +10,57 @@
       </nav>
     </header>
 
-<template>
-  <!-- Main Hero Content Only -->
-  <div class="hero-content">
-    <p class="greeting">Hello, I'm</p>
-    <h1 class="name">Alfred Joseph <span>Mayormente</span></h1>
-    <p class="description">
-      Aspiring Web Developer passionate about creating responsive and modern websites.
-    </p>
+    <div class="hero-content">
+      <p class="greeting">Hello, I'm</p>
+      <h1 class="name">Alfred Joseph <span>Mayormente</span></h1>
+      <p class="description">
+        Aspiring Web Developer passionate about creating responsive and modern web applications.
+      </p>
 
-    <a href="#contact" class="btn-primary">Get In Touch</a>
+      <a href="#contact" class="btn-primary">Get In Touch</a>
+    </div>
   </div>
 </template>
 
 <style scoped>
+.portfolio-container {
+  min-height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.nav-links a {
+  color: #e2e8f0;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #38bdf8;
+}
+
 .hero-content {
   max-width: 500px;
 }
 
 .greeting {
   font-size: 1.1rem;
-  color: #1e3a8a;
+  color: #38bdf8;
   margin-bottom: 0.4rem;
   font-weight: 600;
 }
@@ -45,7 +74,7 @@
 }
 
 .name span {
-  color: #1e293b;
+  color: #94a3b8;
 }
 
 .description {
@@ -57,7 +86,7 @@
 
 .btn-primary {
   display: inline-block;
-  background-color: #000080;
+  background-color: #2563eb;
   color: #ffffff;
   padding: 0.7rem 1.6rem;
   border-radius: 6px;
@@ -68,6 +97,6 @@
 }
 
 .btn-primary:hover {
-  background-color: #000066;
+  background-color: #1d4ed8;
 }
 </style>
