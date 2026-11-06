@@ -44,7 +44,7 @@
 }
 
 .nav-links a {
-  color: #a3a3a3;
+  color: #1a1818;
   text-decoration: none;
   margin-left: 2rem;
   font-size: 0.95rem;
@@ -53,7 +53,7 @@
 }
 
 .nav-links a:hover {
-  color: #ffffff;
+  color: #141414;
 }
 
 .hero-content {
@@ -62,7 +62,7 @@
 
 .greeting {
   font-size: 1.1rem;
-  color: #a3a3a3;
+  color: #050505;
   margin-bottom: 0.5rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -74,16 +74,16 @@
   font-weight: 800;
   line-height: 1.1;
   margin-bottom: 1.2rem;
-  color: #ffffff;
+  color: #161515;
 }
 
 .name span {
-  color: #737373;
+  color: #0c0c0c;
 }
 
 .description {
   font-size: 1.05rem;
-  color: #d4d4d4;
+  color: #131212;
   margin-bottom: 2rem;
   line-height: 1.6;
 }
