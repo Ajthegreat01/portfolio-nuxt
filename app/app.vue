@@ -40,63 +40,69 @@
   font-weight: 800;
   font-size: 1.5rem;
   color: #ffffff;
+  letter-spacing: 1px;
 }
 
 .nav-links a {
-  color: #e2e8f0;
+  color: #a3a3a3;
   text-decoration: none;
-  margin-left: 1.5rem;
+  margin-left: 2rem;
   font-size: 0.95rem;
+  font-weight: 500;
   transition: color 0.2s ease;
 }
 
 .nav-links a:hover {
-  color: #38bdf8;
+  color: #ffffff;
 }
 
 .hero-content {
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .greeting {
   font-size: 1.1rem;
-  color: #38bdf8;
-  margin-bottom: 0.4rem;
-  font-weight: 600;
+  color: #a3a3a3;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .name {
-  font-size: 2.8rem;
+  font-size: 3.2rem;
   font-weight: 800;
   line-height: 1.1;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
   color: #ffffff;
 }
 
 .name span {
-  color: #94a3b8;
+  color: #737373;
 }
 
 .description {
-  font-size: 1rem;
-  color: #e2e8f0;
-  margin-bottom: 1.5rem;
-  line-height: 1.5;
+  font-size: 1.05rem;
+  color: #d4d4d4;
+  margin-bottom: 2rem;
+  line-height: 1.6;
 }
 
 .btn-primary {
   display: inline-block;
-  background-color: #2563eb;
-  color: #ffffff;
-  padding: 0.7rem 1.6rem;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 0.8rem 1.8rem;
   border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.9rem;
-  transition: background-color 0.2s ease;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  border: 1px solid #ffffff;
 }
 
 .btn-primary:hover {
-  background-color: #1d4ed8;
+  background-color: #000000;
+  color: #ffffff;
 }
 </style>
